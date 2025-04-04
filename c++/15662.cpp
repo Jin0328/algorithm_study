@@ -9,7 +9,7 @@ vector<pair<int, int>> spinningWheels(vector<vector<int>> &wheel, int n, int dir
     int index = n - 1, new_direction;
     vector<pair<int, int>> spinning_wheels;
     spinning_wheels.push_back(make_pair(index, direction));
-    // 현재 바퀴의 왼쪽을 확인함
+    // 현재 바퀴의 왼쪽을 확인함 
     new_direction = direction;
     for (int i = index; i > 0; i--)
     {
